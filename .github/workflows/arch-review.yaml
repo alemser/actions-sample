@@ -1,0 +1,24 @@
+name: Architecure Review
+on: [pull_request]
+
+jobs:
+  prepare-review-log:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ack
+        run: echo Hello world $GITHUB_ACTOR
+
+  notify-engineering-group:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ack
+        run: echo Hello world $GITHUB_ACTOR
+
+  notify-core-arc-review-group:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ack
+        run: echo Hello world $GITHUB_ACTOR
