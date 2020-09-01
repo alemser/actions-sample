@@ -1,1 +1,1 @@
-# Sample GH workflow
+# Sample GH actions/workflow
