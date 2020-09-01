@@ -3,21 +3,21 @@ on: [pull_request]
 
 jobs:
   prepare-review-log:
-    name: Greeting
+    name: Prepare review log document
     runs-on: ubuntu-latest
     steps:
       - name: Ack
         run: echo Hello world $GITHUB_ACTOR
 
   notify-engineering-group:
-    name: Greeting
+    name: Notify engineering group
     runs-on: ubuntu-latest
     steps:
       - name: Ack
         run: echo Hello world $GITHUB_ACTOR
 
   notify-core-arc-review-group:
-    name: Greeting
+    name: Notify core architecture review group
     runs-on: ubuntu-latest
     steps:
       - name: Ack
